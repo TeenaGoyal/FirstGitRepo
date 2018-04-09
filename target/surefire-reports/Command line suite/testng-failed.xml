@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="VarifyAddToCart"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.HomePageTest -->
+      <class name="com.qa.TestCases.RegistrationTestCase">
+        <methods>
+          <include name="Verifyregistration" invocation-numbers="0 1"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.RegistrationTestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
